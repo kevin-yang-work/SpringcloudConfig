@@ -6,10 +6,10 @@ spring:
     host: rabbitmq
     port: 5672
     username: rabbitmq
-    password: rabbitmq@cfhl@test
+    password: rabbitmq@cfhl
 management:
   endpoints:
     web:
       base-path: /
       exposure:
-        include: "*"
+        include: ["/bus-refresh","info","health"]
