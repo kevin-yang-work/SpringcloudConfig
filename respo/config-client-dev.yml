@@ -1,7 +1,7 @@
 foo: foo version 10
 spring:
   rabbitmq:
-    host: rabbitmq.kevin-ws.cn1
+    host: rabbitmq.kevin-ws.cn
     port: 5672
     username: rabbitmq
     password: rabbitmq@cfhl
