@@ -10,6 +10,6 @@ spring:
 management:
   endpoints:
     web:
-      base-path: /
+      base-path: /aa
       exposure:
-        include: ["/bus-refresh","info","health"]
+        include: "*"
