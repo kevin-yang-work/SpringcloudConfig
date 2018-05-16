@@ -1,17 +1,15 @@
 foo: foo version 10
 spring:
   application:
-    name: config-client-
+    name: config-client
   rabbitmq:
     host: rabbitmq
     port: 5672
     username: rabbitmq
-    password: rabbitmq@cfhl
-server:
-  port: 8883
+    password: rabbitmq@cfhl@test
 management:
   endpoints:
     web:
-      base-path: /ac
+      base-path: /
       exposure:
         include: "*"
